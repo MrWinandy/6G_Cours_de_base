@@ -1,0 +1,72 @@
+\documentclass[a4paper, 11pt, oneside, BCOR=0mm, DIV=15]{scrbook} %a4paper; landscape
+
+\input{design_modern.tex}
+\input{commands.tex}
+
+
+\def\lycee{LTMA}
+\def\classe{6G}
+\def\season{2019/20}
+
+\newcommand{\n}{;\,}
+
+\tikzstyle{every picture}+=[remember picture]
+
+\begin{document}
+
+\thispagestyle{empty}
+{\color{white}.\hfill.}
+\vspace{5cm}
+
+\begin{center}
+\huge
+{\bfseries Cours de mathématiques} \\
+6$^e$ G, cours de base
+\end{center}
+
+\vfill
+
+\large
+\begin{center}
+\begin{tabular}{r|l}
+\textbf{Nom}
+ & Frank {\scshape Rollinger} \\
+\textbf{Contact}
+ & {frank.rollinger$@$education.lu} \\
+\textbf{Etablissement}
+ & {\scshape LTMA} \\
+\textbf{Classe}
+ & {\scshape \classe} \\
+\textbf{Année scolaire}
+ & {\scshape \season}
+\end{tabular}
+\end{center}
+
+
+\clearpage
+%\toc
+
+\include{cours.6Gb.ch1.nombres.relatifs} % 7-8 semaines
+
+\include{cours.6Gb.ch2.puissances} % 3-4 semaines
+
+%%---- 2e trimestre
+%\include{cours.6Gb.ch3.triangles} % 2-3 semaines
+%
+%\include{cours.6Gb.ch4.nombres.rationnels} % 3-4 semaines
+%
+%\include{cours.6Gb.ch5.calcul.litteral} % 3-4 semaines
+%
+%%--- 3e trimestre
+%\include{cours.6Gb.ch6.equations.1er.degre} % 3 semaines
+%
+%\include{cours.6Gb.ch7.solides} % 3 semaines
+%
+%\include{cours.6Gb.ch8.representation.de.donnees} % 2 semaines
+%
+%\include{cours.6Gb.ch9.probabilites} % 1-2 semaines
+
+
+
+
+\end{document}
