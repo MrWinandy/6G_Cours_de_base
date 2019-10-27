@@ -1,0 +1,569 @@
+\chapter{Puissances}
+\section{Puissances à exposants positifs}
+
+\addexoInline{Le roi Belkib (Indes) promit une récompense fabuleuse à qui lui proposerait une distraction qui le satisferait. Lorsque le sage Sissa, fils du Brahmine Dahir, lui présenta le jeu d'échecs, le souverain, demanda à Sissa ce que celui-ci souhaitait en échange de ce cadeau extraordinaire. \\
+Sissa demanda au prince de déposer un grain de riz sur la première case, deux sur la deuxième, quatre sur la troisième, et ainsi de suite pour remplir l'échiquier en doublant la quantité de grain à chaque case. \\
+Le prince accorda immédiatement cette récompense sans se douter de ce qui allait suivre:
+\begin{enumerate}
+	\item Déterminer le nombre de grains de riz sur la 11e case.
+	\item Déterminer le nombre de grains de riz sur la 21e case.
+	\item Estimer le nombre de grains de riz sur la 64e case.
+\end{enumerate}
+}{ $2^{10}=1\,024$ \\
+$2^{20} \approx 1\,mio$ \\
+$2^{63}= 9\,223\,372\,036\,854\,775\,808$ grains = environ 500 fois la production \textbf{actuelle} d'une année.}
+
+
+
+
+\stitle{Exemples}
+\begin{enumerate}[label=$\star$]
+  \item $\underbrace{2\cdot2\cdot2\cdot2}_\text{{\red 4} facteurs égaux}=2^{\red 4}$ (On lit: "2 exposant 4")
+  \item $\underbrace{5\cdot5\cdot5\cdot5\cdot5\cdot5}_\text{{\red 6} facteurs égaux}=5^{\red 6}$ (5 exposant 6)
+  \item $\underbrace{3\cdot3}_\text{{\red 2} facteurs égaux}=3^{\red 2}$ (3 exposant 2 ou 3 au carré)
+  \item $\underbrace{4\cdot4\cdot4}_\text{{\red 3} facteurs égaux}=4^{\red 3}$ (4 exposant 3 ou 4 au cube)
+\end{enumerate}
+
+\defn{Soit x un nombre quelconque et n un nombre entier (strictement) positif. Alors
+$$ x^{\red n}=\underbrace{x\cdot x\cdot x\cdot.....\cdot x}_\text{{\red n} facteurs égaux} $$
+est une \textbf{puissance} et
+\begin{enumerate}[label=$\star$]
+  \item $x$ s'appelle \textbf{base}
+  \item $n$ s'appelle \textbf{exposant}
+\end{enumerate}
+On pose:
+$$ x^1=x; \qquad x^0=1. $$
+Mais $0^0$ n'existe pas!
+}
+
+\addexoInline{Calculer.
+\begin{multicols}{2}\vspace{-\baselineskip}
+\begin{enumerate}
+  \item $ 5^3= $
+  \item $ 0,3^2= $
+  \item $ 0,1^3= $
+  \item $ 2^4= $
+  \item $ (-4)^3= $
+  \item $ (-1,3)^2= $
+\end{enumerate}
+\end{multicols}
+}{-}
+
+\retenir[Puissances usuelles]{
+	\begin{multicols}{3}
+		\begin{itemize}
+			\item $ 1^2 = \midblank{2} $
+			\item $ 2^2 = \midblank{2} $
+			\item $ 3^2 = \midblank{2} $
+			\item $ 4^2 = \midblank{2} $
+			\item $ 5^2 = \midblank{2} $
+			\item $ 6^2 = \midblank{2} $
+			\item $ 7^2 = \midblank{2} $
+			\item $ 8^2 = \midblank{2} $
+			\item $ 9^2 = \midblank{2} $
+			\item $ 10^2 = \midblank{2} $
+			\item $ 11^2 = \midblank{2} $
+			\item $ 12^2 = \midblank{2} $
+			\item $ 13^2 = \midblank{2} $
+			\item $ 14^2 = \midblank{2} $
+			\item $ 15^2 = \midblank{2} $
+		\end{itemize}
+	\end{multicols}\vspace{0.5cm}
+	\begin{multicols}{3}
+		\begin{itemize}
+			\item $ 1^3 = \midblank{2} $
+			\item $ 2^3 = \midblank{2} $
+			\item $ 3^3 = \midblank{2} $
+			\item $ 4^3 = \midblank{2} $
+			\item $ 5^3 = \midblank{2} $
+		\end{itemize}
+	\end{multicols}\vspace{0.5cm}
+	\begin{multicols}{3}
+		\begin{itemize}
+			\item $ 2^0 = \midblank{2} $
+			\item $ 2^1 = \midblank{2} $
+			\item $ 2^2 = \midblank{2} $
+			\item $ 2^3 = \midblank{2} $
+			\item $ 2^4 = \midblank{2} $
+			\item $ 2^5 = \midblank{2} $
+			\item $ 2^6 = \midblank{2} $
+			\item $ 2^7 = \midblank{2} $
+			\item $ 2^8 = \midblank{2} $
+			\item $ 2^9 = \midblank{2} $
+			\item $ 2^{10} = \midblank{2} $
+		\end{itemize}
+	\end{multicols}
+}
+
+\addexoInline{Calculer.
+\begin{multicols}{2}\vspace{-\baselineskip}
+\begin{enumerate}
+  \item $ \left(\dfrac{1}{3}\right)^4= $
+  \item $ 13^0= $
+  \item $ \left(-\dfrac{1}{2}\right)^5= $
+  \item $ \left(-\dfrac{1}{8}\right)^1= $
+  \item $ (-7)^0= $ 
+  \item $ -7^0= $
+\end{enumerate}
+\end{multicols}
+}{-}
+
+\addexoInline{Vrai ou faux. Justifier.
+\begin{enumerate}
+  \item $2^4$ est le double de $2^3$.
+  \item $2^3=3^2$.
+  \item $2^4=2 \cdot 4$
+  \item $5^2$ est la moitié de $5^4$.
+\end{enumerate}
+}{-}
+
+\addexoInline{Trouver pour chaque cas $n$.
+\begin{enumerate}
+  \item $27 = 3^n$
+  \item $ n^3=125 $
+  \item $ 5^n=125 $
+  \item $ n^2=81 $
+  \item $ 5^n = 1 $
+  \item $ n^10 = 0 $
+\end{enumerate}
+}{-}
+
+\addexoInline{Calculer.
+\begin{enumerate}
+  \item $ 0,2^3= $
+  \item $ 0,04^2= $
+  \item $ 1,3^2= $
+  \item $ 10^2 \dot 10^3 \cdot 10^5 = $
+  \item $ 2^3 \cdot 3^2 = $
+  \item $ 2^3 \cdot 2^3 = $
+\end{enumerate}
+}{-}
+
+\addexoInline{Écrire sous la forme d'une puissance ($a^n$).
+\begin{enumerate}
+  \item $ 6^2 \cdot 6^3 = $
+  \item $ 5 \cdot 5^3= $
+  \item $ 7^2 \cdot 7^4= $
+  \item $ 1^3 \cdot 1^8= $
+  \item $ 11^{12} \cdot 11^{13}= $
+  \item $ 2^3 \cdot 3^2 = $
+\end{enumerate}
+}{-}
+
+\addexoInline{Déterminer si le résultat est positif ou négatif.
+\begin{enumerate}
+  \item $ (-2)^2= $
+  \item $ -2^2= $
+  \item $ -(-2)^2= $
+  \item $ -(-81)^3= $
+  \item $ -3^{20}= $
+  \item $ -1^2 \cdot (-5)^{3}= $
+\end{enumerate}
+}{-}
+
+\addexoInline{Calculer.
+\begin{enumerate}
+  \item $ \left(\dfrac{2}{5}\right)^2= $
+  \item $ \dfrac{2^2}{5}= $
+  \item $ \left(\dfrac{-5}{3}\right)^2= $
+  \item $ \dfrac{-5^2}{3}= $
+\end{enumerate}
+}{-}
+
+
+
+\section{Puissances à exposants négatifs}
+Considérons le tableau suivant:
+$$\begin{array}{rrcll}
+  \text{exp.} & \text{puiss.} && \text{rés.} \\
+\hline
+ -1 \downarrow & 3^3 &=& 27 & \downarrow :3 \\
+ -1 \downarrow & 3^2 &=& 9 & \downarrow :3 \\
+ -1 \downarrow & 3^1 &=& 3 & \downarrow :3 \\
+ -1 \downarrow & 3^0 &=& 1 & \downarrow :3 \\
+ -1 \downarrow & 3^{-1} &=& \frac{1}{3} & \downarrow :3 \\
+ -1 \downarrow & 3^{-2} &=& \frac{1}{9} & \downarrow :3 \\
+ & 3^{-3} &=& \frac{1}{27}
+\end{array}$$
+
+\defn{Soit $x$ un nombre quelconque {\red non nul}. Soit $n$ un entier positif. Alors
+$$ x^{-n}=\dfrac{1}{x^n} $$
+est \textbf{l'inverse de $x^n$}.
+}
+
+
+\addexoInline{Calculer.
+\begin{multicols}{2}\vspace{-\baselineskip}
+\begin{enumerate}
+  \item $ 2^{-3}= $
+  \item $ 3^{-2}= $
+  \item $ 0,1^{-2}= $
+  \item $ (-5)^{-1}= $
+  \item $ (-7)^{-2}= $
+  \item $ -7^{-2}= $
+\end{enumerate}
+\end{multicols}
+}{-}
+
+\rem{\vspace{-\baselineskip}
+\begin{enumerate}[label=$\cdot$]
+  \item $\dfrac{1}{x}$ est l'inverse de $x$ si $x \overset{!}{\neq} 0$.
+  \item Si l'exposant est $-1$, il suffit d'inverser le nombre entre parenthèses.
+\end{enumerate}
+}
+
+\addexoInline{Calculer.
+\begin{enumerate}
+  \item $ 2^{-1}= $
+  \item $ 5^{-1}= $
+  \item $ 4^{-1}= $
+  \item $ 10^{-2}= $
+  \item $ 10^{-4}= $
+  \item $ 2^{-2}= $
+\end{enumerate}
+}{-}
+
+\addexoInline{Écrire sous forme d'une puissance ($a^n$).
+\begin{enumerate}
+  \item $ \dfrac{1}{25}= $
+  \item $ 64 = 2^n $
+  \item $ 0,01 =  $
+  \item $ \dfrac{1}{8}= $
+  \item $ 0,001= $
+  \item $ 27= $
+\end{enumerate}
+}{-}
+
+
+Exemple
+$$\begin{array}[t]{rcl}
+10^2 &=& 100 \\
+10^1 &=& 10 \\
+10^0 &=& 1 \\
+10^{-1} &=& \dfrac{1}{10}=0,1 \\
+10^{-2} &=& 0,01 \\
+10^{-3} &=& 0,001
+\end{array}$$
+
+\prop{Si $n$ est un entier positif, alors:
+$$ 10^n=1\underbrace{000.....00}_{\text{n zéro}} $$
+$$ 10^{-n}=\underbrace{0,00.....00}_{\text{n zéro}}1 $$
+}
+
+\addexoInline{Écrire sous forme d'un nombre décimal.
+\begin{enumerate}
+  \item $ 10^{-4}= $
+  \item $ 10^9= $
+  \item $ 10^1= $
+  \item $ 10^{-5}= $
+  \item $ 10^0 = $
+  \item $ 10^{-3}= $
+\end{enumerate}
+}{-}
+
+\addexoInline{Écrire sous forme d'une puissance de base 10.
+\begin{enumerate}
+  \item 100
+  \item 0,000\,1
+  \item un dixième
+  \item un milliard
+  \item un million
+  \item un millionième
+\end{enumerate}
+}{-}
+
+\addexoInline{Calculer.
+\begin{enumerate}
+  \item $ 25,36 : 0,001 = $
+  \item $ 25,47 \cdot 0,01 = $
+  \item $ 0,000\,7 : 0,01 = $
+  \item $ 123\,456 : 0,000\,01 = $
+  \item $ 1,2 \cdot 0,1= $
+  \item $ 1,2 : 0,1= $
+\end{enumerate}
+}{-}
+
+
+
+
+\section{La notation scientifique}
+\id{pour 6G\,: seulement base 10
+}
+
+Cette notation est utilisée pour écrire des nombres très grands ou très petits.
+La vitesse de la lumière par exemple est environ:
+$$ 300\,000\,000\ m/s = 3 \cdot 10^8\ m/s. $$
+
+\defn{La notation scientifique d'un nombre positif est:
+$$ a \cdot 10^n $$
+où $a$ est un mombre positif entre 1 et 10 (10 exclu!) \\
+et $n$ est un entier positif ou négatif.
+}
+
+\addexoInline{Écrire en notation scientifique.
+\begin{enumerate}
+  \item $ 80\,000\,000\,000\,000= $
+  \item $ 4\,500\,000\,000= $
+  \item $ 0,000\,000\,000\,000\,001= $
+  \item $ -0,000\,003\,9= $
+  \item $ -0,5 = $
+  \item $ 1 = $
+\end{enumerate}
+}{-}
+
+
+\addexoInline{Parmi les nombres suivants, quels sont ceux qui sont écrits en notation scientifique? Expliquer.
+\begin{enumerate}
+  \item $ 3,8 \cdot 10^5 $
+  \item $ 0,54 \cdot 10^{-4} $
+  \item $ 5,9 \cdot 4^{10} $
+  \item $ 6,92 \cdot 10^{-5} $
+  \item $ 34 \cdot 10^5 $
+  \item $ 0,6 \cdot 10^5 $
+\end{enumerate}
+}{-}
+
+\id{ex. suppl.}
+\arrow Ex 59-61, 63, 66 p.98
+
+
+\stitle{Comparaison de deux nombres positifs écrits en notation scientifique}
+\stitle{Exercice:} Compléter par $>$ ou $<$.
+\begin{enumerate}[label=\alph*), series=exemples]
+  \item $ 6 \cdot 10^7 < 3 \cdot 10^9 $
+  \item $ 5 \cdot 10^4 > 8 \cdot 10^{-5} $
+  \item $ 3,2 \cdot 10^-5 > 3,4 \cdot 10^{-9} $ \\
+\textbf{Conclusion:} Si les exposants des puissances de base 10 sont différents alors le plus grand nombre est celui avec le plus grand exposant.
+  \item $ 3\cdot 10^3 > 2 \cdot 10^3 $
+  \item $ 2\cdot 10^{-2} < 4 \cdot 10^{-2} $
+  \item $ 4,021\cdot 10^5 > 4,201 \cdot 10^5 $ \\
+\textbf{Conclusion:} Si les exposants des puissances de base 10 sont égaux alors le plus grand nombre est celui avec le plus grand facteur a.
+\end{enumerate}
+
+
+\addexoInline{Donner l'écriture scientifique de la masse de ces planètes, puis les ranger par ordre croissant!
+\begin{tabular}{lr}
+Mars & $ 64 185\cdot10^{19} $ \\
+Jupiter & $ 0,189\cdot10^{28}	$ \\
+Uranus & $ 886,31\cdot10^{23}	$ \\
+Vénus & $ 0,048 7\cdot10^{26}$
+\end{tabular}
+}{-}
+\addexoInline{Donner l'écriture scientifique de la masse de ces atomes, puis les ranger par ordre croissant!
+\begin{tabular}{lr}
+Uranium & $ 0,395\cdot10^{-24}$ \\
+Aluminium & $4,48\cdot10^{-26}$ \\
+Or & $32,7\cdot10^{-26}	$ \\
+Fer & $9274\cdot10^{-29}$ \\
+Cuivre & $1055\cdot10^{-28}$
+\end{tabular}
+}{-}
+
+
+
+
+\prop[Règles de calcul avec puissances]{
+Pour $a, b$ des nombres réels et $n, p$ des nombres entiers.
+\begin{enumerate}[label=$\bullet$]
+  \item $ a^n \cdot a^p = a^{n+p}$
+  \item $ \left(a^n\right)^p = a^{n\cdot p}$
+  \item $ a^{n}\cdot b^n  = \left(a\cdot b\right)^n $
+  \item $ \dfrac{a^n}{a^p} = a^{n-p} \qquad (a \neq 0)$
+%  \item $ \left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}$
+%  \item $ \left(\dfrac{a}{b}\right)^{-n} = \left(\dfrac{b}{a}\right)^n$
+\end{enumerate}
+}
+\rem{Il faut avoir un produit/quotient pour appliquer les règles de calcul avec puissances: \\
+{\red C1: Multiplication} \\
+Ensuite, on recopie une fois la base si elles sont égales (et ajoute les exposants) ou bien
+on recopie l'exposant s'ils sont égaux (et on multiplie les bases): \\
+{\red C2: même base ou même exposant.}
+}
+
+
+\addexoInline{Vrai ou faux. Justifier.
+\begin{enumerate}
+  \item $ 3^5 \cdot 3^2 = 3^{10} $
+  \item $ (-4)^8 \cdot (-4)^3=(-4)^{11} $
+  \item $ 2^5 \cdot 2^3 = 2^{15} $
+  \item $ 3^2+3^5=3^7 $
+  \item $ 2^5 \cdot 2^3 =2^8 $
+  \item $ 3^2+3^5=3^{10} $
+\end{enumerate}
+}{-}
+
+\addexoInline{Si possible, écrire sous forme d'une seule puissance. Sinon, justifier.
+\begin{enumerate}
+ \item $ 3^5 \cdot 3^2= $
+ \item $ 10^7 \cdot 10^{22}= $
+ \item $ 7^2 \cdot 7 = $
+ \item $ (-2)^3 \cdot (-2)^4= $
+ \item $ -2^3 \cdot (-2)^4= $
+ \item $ \left(\dfrac{2}{3}\right)^2 \cdot \left( \dfrac{2}{3} \right)^2= $
+\end{enumerate}
+}{-}
+
+\addexoInline{Compléter
+\begin{enumerate}
+  \item $ 3^5 \cdot \ldots^5=12^5 $
+  \item $ 5^7 \cdot 2^{\ldots}= \ldots^7  $
+  \item $ \ldots^4 \cdot 6^4=24^4 $
+  \item $ \ldots^3 \cdot 3^{\ldots}=15^3 $
+\end{enumerate}
+}{-}
+
+\addexoInline{Écrire, si possible sous forme d'une seule puissance. Sinon, justifier.
+\begin{enumerate}
+  \item $ 13 \cdot 13^2 \cdot 13^3= $
+  \item $ (-4)^2 \cdot (-4)^3 \cdot (-4)^5= $
+  \item $ 7^4+7^2+7^3= $
+  \item $ 1,2^4 \cdot 1,2^6  \cdot 1,2^2= $
+  \item $ 21^2 \cdot 21^5 \cdot 21^7 \cdot 21^3 =  $
+  \item $ (-8)^4 \cdot (-8)^3 \cdot (-8)^7= $
+\end{enumerate}
+}{-}
+
+\addexoInline{Écrire, si possible sous forme d'une seule puissance. Sinon, justifier.
+\begin{enumerate}
+  \item $ 2^2 \cdot 9= $
+  \item $ 3^3 \cdot 8= $
+  \item $ 4^2 \cdot 25= $
+  \item $ 64 \cdot 5^2=  $
+  \item $ 1\,000 \cdot 3^3 = $
+  \item $ 81 \cdot 7^2= $
+\end{enumerate}
+}{-}
+
+\addexoInline{Écrire, si possible sous forme d'une seule puissance. Sinon, justifier.
+\begin{enumerate}
+  \item $ \dfrac{7^4}{7}= $
+  \item $ \dfrac{0,2^7}{0,2^3}= $
+  \item $ 8^5 : 8^2= $
+  \item $ \dfrac{12^6}{12^4}= $
+  \item $ \dfrac{3^7}{3^9}= $
+  \item $ \dfrac{2^5}{8}= $
+\end{enumerate}
+}{-}
+
+\addexoInline{Écrire, si possible sous forme d'une seule puissance. Sinon, justifier.
+\begin{enumerate}
+  \item $ \left(3^5\right)^3= $
+  \item $ \left(-2^3\right)^4= $
+  \item $ \left(-2^4\right)^3= $
+  \item $ 4^6 \cdot 9^6 = $
+  \item $ \dfrac{36^5}{9^5}= $
+  \item $ \left(\dfrac{8}{100}\right)^8 \cdot \left(\dfrac{15}{6}\right)^8= $
+\end{enumerate}
+}{-}
+
+\addexoInline{Compléter.
+\begin{enumerate}
+  \item $ \left(2^5 \right)^3 = 2^{\ldots} $
+  \item $ \left(3^2 \right)^4 = 9^{\ldots} $
+  \item $ \left(4^3 \right)^2 = 4^{\ldots} $
+  \item $ \left(4^3 \right)^{\ldots} = 4^{-9} $
+  \item $ \left(2^{\ldots} \right)^{-1} = 2^5 $
+\end{enumerate}
+}{-}
+
+
+\addexoInline{Calculer.
+\begin{enumerate}
+  \item $25^2 \cdot 45,3 \cdot 4^2= $
+  \item $0,2^7 \cdot 4^{3} \cdot 5^7 \cdot 2,5^3 = $
+  \item $5^7\cdot 2^8= $
+  \item $2^3 \cdot 10^3 \cdot 125 \cdot 10^{-6}= $
+  \item $6^4\cdot \dfrac{3^4}{18^3}= $
+\end{enumerate}
+}{Enoncé: Calculer.
+\begin{enumerate}
+  \item $ 453\,000 $
+  \item $ 1\, 000 $
+  \item $ 2 \cdot 10^7 $
+  \item $ 1 $
+  \item $ 18 $
+\end{enumerate}
+}
+\addexoInline{Écrire, si possible, sous forme d'une puissance avec la plus petite base possible.
+\begin{multicols}{2}
+\begin{enumerate}
+  \item $ 3^5\cdot 3^0\cdot3^{-3}\cdot3= $
+  \item $ 27\cdot 3^5= $
+  \item $ 25^4= $
+  \item $ 27^2 \cdot 9^5= $
+  \item $ 2^6+2^6= $
+  \item $ 2^6\cdot2^6= $
+\end{enumerate}
+\end{multicols}
+}{Enoncé: Écrire, si possible, sous forme d'une puissance avec la plus petite base possible.
+\begin{multicols}{2}
+\begin{enumerate}
+  \item $ 3^3 $
+  \item $ 3^8 $
+  \item $ 5^{20} $
+  \item $ 3^{16} $
+  \item $ 2^7 $
+  \item $ 2^{12} $
+\end{enumerate}
+\end{multicols}
+}
+
+\addexoInline{Soit
+$$ A=2 \cdot 10^2 +10^1 +10^{-1}+2 \cdot 10^{-2} $$
+\begin{enumerate}
+  \item Donner l'écriture décimale de $A$.
+  \item Donner l'écriture scientifique de $A$.
+  \item Écrire $A$ sou forme d'un produit d'un nombre entier par une puissance de base 10.
+\end{enumerate}
+}{-}
+
+
+\addexoInline{Écrire sous la forme d'une seule puissance.
+\begin{enumerate}
+  \item $ \dfrac{3^{-14}}{3^6}= $
+  \item $ \dfrac{7^6 \cdot 49}{7^{-9}}= $
+  \item $ \dfrac{8 \cdot 2^8}{4}= $
+  \item $ \dfrac{9 \cdot 27}{81}= $
+  \item $ \dfrac{6 \cdot 6}{16-7}= $
+  \item $ \dfrac{7^{-2}}{7^{-3}}= $
+\end{enumerate}
+}{-}
+\addexoInline{Écrire sous la forme d'une seule puissance.
+\begin{enumerate}
+  \item $ \dfrac{10^{18} \cdot 10^{-20}}{10^{-4}\cdot 10^{-6}}= $
+  \item $ \dfrac{4^{10} \cdot 4^{-5}}{\left(4^{-3}\right)^{-5}}= $
+  \item $ \dfrac{21^4}{7^4}= $
+  \item $ 36 \cdot 16 \cdot 81 = $
+  \item $ \dfrac{9^2}{3^2}= $
+  \item $ 4^5 \cdot 8 = $
+\end{enumerate}
+}{-}
+
+
+
+\addexoInline{Il y a environ $2,025 \cdot 10^{13}$ globules rouges dans 4,5 litres de sang humain.
+Combien de globules rouges y a-t-il dans 3 litres de sang ?
+}{-}
+
+\addexoInline{Quelle serait l'épaisseur d'un très gros livre qui aurait un milliard de pages, sachant qu'une feuille a une épaisseur d'un dixième de millimètre ?
+}{-}
+
+\addexoInline{Si 6,8 milliards de personnes boivent 1,5 $l$ d'eau par jour, quelle sera la quantité d'eau bue par jour en litres ? Donner le résultat en écriture scientifique.
+}{-}
+
+\addexoInline{Une tête possède en moyenne 100 000 cheveux. Sachant qu'il y a 6 milliards de terriens, donne un ordre de grandeur du nombre de cheveux sur Terre.
+}{-}
+
+\addexoInline{Le premier mars, Laura lance une rumeur : le collège sera fermé le 1er avril. Elle prévient 3 personnes. Le 2 mars chacune des trois personnes prévenues la veille propage à son tour cette rumeur en prévenant trois nouvelles personnes. Ainsi, chaque jour, une personne prévenue la veille prévient trois nouvelles personnes.
+Exprimer sous forme d'une puissance le nombre de personnes qui auraient appris la rumeur:
+\begin{enumerate}
+  \item le jour du 2 mars,
+  \item le jour du 4 mars,
+  \item le jours du 10 mars,
+  \item le jours du 15 mars.
+\end{enumerate}
+}{-}
+
+\addexoInline{Un moustique pèse en moyenne $1,5 mg$ (milligrammes).
+Combien faut-il de moustiques pour obtenir le poids d'un éléphant pesant 6 tonnes?.
+}{-}

@@ -1,0 +1,261 @@
+\chapter{Probabilités}
+dénombrements simples; diagramme en arbre, déf. exp. aléatoires; équiprobabilité;
+
+%--- copy-paste vun der 9e
+\section{Introduction et définitions}
+
+\defn{Une \emph{expérience aléatoire} vérifie deux conditions:
+\begin{enumerate}
+	\item elle conduit à de s résultats qu'on est parfaitement capable de nommer,
+	\item mais on ne sait pas lequel de ces résultats va se produire quand on réalise l'expérience.
+\end{enumerate}
+L'ensemble de tous les résultats est appelé \textbf{univers}, noté $\omega$ et
+on appelle \textbf{événement}, tout sous-ensemble d'un univers.
+}
+
+Exemples d'expériences aléatoires:
+\begin{enumerate}
+\item Lancer une pièce de monnaie (2 résultats: pile et face.)
+\item Lancement d'un dé équilibré.
+\begin{itemize}
+	\item L'univers représente tous les résultats possibles: $$ \Omega = \{ 1;2;3;4;5;6 \} $$
+	\item Exemples d'événement: $A=$\og lancer un nombre pair\fg{} $=\{2; 4; 6\}$.
+\end{itemize}
+\item Tirer une carte parmi 32 ou 52. (32 ou 52 résultats)
+\begin{itemize}
+	\item L'univers: ... \id{c\oe ur, carreau, trèfle, pique}
+	\item Exemple d'événement: ...
+\end{itemize}
+\end{enumerate}
+
+\rem{Tous les résultats des univers des exemples d'expériences aléatoires ci-dessus sont \textbf{équiprobables}:
+tous les éléments de l'univers ont la même probabilité.
+}
+
+\id{Si on a 6 résultat, alors chaque résultat a la probabilité $\frac{1}{6}$. (En cas d'équiprobabilité.)}
+
+\id{Bsp ginn waat net éuiprobable ass.}
+
+
+\addexo{On tire une carte parmi 32 (des valeurs de 7 à l'as et chaque valeur est représentée avec les 4 symboles).
+\begin{enumerate}
+ \item Noter l'univers de cette expérience.
+ \item Noter quelques exemples d'événements.
+ \item Déterminer la probabilité de ces événements.
+\end{enumerate}
+}{4 symboles: {\red c\oe ur, carreau}, {\blue trèfle, pique}.
+}
+
+\prop{La probabilité d'un événement peut être calculée à l'aide de la formule
+$$ \dfrac{\text{cas favorables}}{\text{cas possibles}}, $$
+à condition que tous les cas soient équiprobables. \\
+La somme des probabilités de tous les résultats possibles (d'une expérience aléatoire) est égale à $1 (=100\%)$.
+}
+
+\addexo{On demande aux 25 élèves d'une classe combien ils ont de frères et s\oe ures. Voici les réponses:
+\begin{center}
+	0; 3; 1; 2; 4; 1; 2; 0; 1; 1; 2; 3; 0; \\
+  1; 1; 5 ;2 ;1 ;0 ;2; 1; 0; 1; 0; 1.
+\end{center}
+On choisit au hasard un élève.
+Déterminer la probabilité de tirer:
+\begin{enumerate}
+	\item un élève qui n'a aucun frère ou s\oe ur.
+	\item un élève qui a un ou plus frères et s\oe urs.
+	\item un élève qui a 2 frères et s\oe urs.
+	\item un élève qui a 0; 1 ou 3 frères et s\oe urs.
+\end{enumerate}
+}{-}
+
+\addexo{Dans un sac, il y a uniquement des boules bleues, des boules vertes et des boules rouges. On tire une boule au hasard. Léo a trouvé les résultats suivants:
+\begin{itemize}
+	\item $p($\og Obtenir une boule bleue\fg{})$=\frac{2}{5}$
+	\item $p($\og Obtenir une boule verte\fg{})$=0,2$.
+	\item $p($\og Obtenir une boule rouge\fg{})$=\frac{3}{9}$.
+\end{itemize}
+Est-ce possible?
+}{-}
+
+\addexo{On dispose d'un sac qui contient 10 boules:
+\begin{itemize}
+	\item 5 boules vertes,
+	\item 3 boules rouges et 
+	\item 1 boule blanche.
+\end{itemize}
+ On tire au hasard et on note la couleur de la boule. Déterminer la probabilité de chacun des événements suivants:
+\begin{enumerate}
+	\item $\ev{A}{Obtenir une boule rouge}$
+	\item $\ev{B}{Ne pas obtenir une boule verte}$
+	\item $\ev{C}{Obtenir une boule rouge ou une boule blanche}$
+\end{enumerate}
+}{-}
+
+\addexo{Stéphane a le choix: tirer une boule dans le sac $A$ ou dans le sac $B$ sans voir ce qu'il tire. Il gagne s'il tire une boule \textbf{blanche}.
+Quel sac doit-il choisir pour avoir le plus de chances de gagner?
+\begin{center}
+  \includegraphics[width=6cm]{pictures/prob_boules_bleues1.png}
+\end{center}
+}{-}
+
+\addexo{Un sac contient 11 boules rouges, 6 boules noires et 3 boules jaunes. On tire une boule au hasard.
+\begin{enumerate}
+	\item Calculer la probabilité pour que cette boule soit rouge.
+	\item Calculer la probabilité pour que cette boule soit noire ou jaune.
+	\item On ajoute dans ce sac des boules bleues. Sachant que la probabilité de tirer une boule bleue est égale à un cinquième, déterminer le nombre de boules bleues qu'on a ajoutées.
+\end{enumerate}
+}{-}
+
+\addexo{Dans une classe, le professeur choisit au hasard un élève qui sera l'arbitre du match de foot. La probabilité que ce soit un garçon est de deux tiers.
+Calculer, si possible, la probabilité que ce soit une fille.
+}{-}
+
+\prop{La probabilité d'un événement est égale à 1 moins la probabilité de l'événement contraire:
+$$ p(A) = 1- p \left(A^C \right) $$
+}
+
+
+\addexo{Chaque face d'un dé cubique est colorée. Il y a trois couleurs possibles: le jaune, le rouge et le blanc. On lance ce dé et on note la couleur de la face supérieure. On sait que la probabilité d'obtenir une face blanche est de deux tiers et que la probabilité d'obtenir une face rouge est d'un sixième.
+\begin{enumerate}
+	\item Déterminer la probabilité d'obtenir une face jaune.
+	\item Déterminer le nombre de faces jaune.
+\end{enumerate}
+}{-}
+
+\addexo{Qui a raison? Justifier.
+\begin{center}
+	\includegraphics[width=6cm]{pictures/prob_discussion.png}
+\end{center}
+}{-}
+
+\addexo{Pierre a lancé 10 fois une pièce de monnaie et il a obtenu à chaque fois pile. Quelle est la probabilité d'obtenir aussi la 11e fois pile? Justifier.
+}{-}
+
+\defn{Soient $A$ et $B$ deux événements. Alors:
+\begin{itemize}
+	\item $A \cup B$ est l'événement qui a lieu si $A$ ou $B$ a lieu.
+	\item $A \cap B$ est l'événement qui a lieu si $A$ et $B$ a lieu.
+	\item $A^C$ ou $\overline{A}$ est l'événement qui a lieu si $A$ n'a pas lieu.
+\end{itemize}
+}
+
+
+\addexo{Dans un stand de fête foraine, on fait tourner une roue, on attend qu'elle s'arrête et on note le numéro indiqué par la flèche.
+\begin{center}
+\includegraphics[width=5cm]{pictures/prob_roue1.png}
+\end{center}
+\begin{enumerate}
+  \item Noter l'univers de cette expérience.
+  \item Soit $\ev{A}{Obtenir un 3}$. Déterminer $p(A)$.
+  \item Soit $\ev{B}{Obtenir un secteur blanc}$. Déterminer $p(B)$.
+  \item Déterminer $p(A \cup B)$.
+\end{enumerate}
+}{-}
+
+
+\addexo{On tire une carte d'un jeu de 52 cartes.
+Déterminer la probabilité des événements suivants:
+\begin{enumerate}[label=$\bullet$]
+  \item A=\og \text{la carte tirée est une dame}\fg{}.
+  \item B=\og\text{la carte tirée est un coeur}\fg{}.
+  \item C=\og\text{la carte tirée n'est pas un coeur}\fg{}.
+  \item D=\og\text{la carte tirée est le 5 de carreau}\fg{}.
+  \item E=\og\text{la carte tirée est noire}\fg{}.
+  \item $A \cup B$, ensuite $A\cap B$.
+\end{enumerate}
+}{-}
+
+
+
+
+\section{L'arbre de choix}
+\id{Op der 6Gb net um Programm
+}
+\id{Si 2 Würfelen gehei loossen, an d'somme vun deenen 2 opschreiwwen. Firwaat ass net alles d'selwecht wahrscheinlech?}
+
+\addexo{On lance deux fois un dé à six faces.
+\begin{enumerate}[label=$\bullet$]
+	\item Noter tous les résultats possibles. Quel est le nombre de cas possibles?
+	\item Soit $\ev{A}{La somme des yeux est 12.}$. \\ Déterminer $p(A)$.
+	\item Soit $\ev{B}{La somme des yeux est 6.}$. \\ Déterminer $p(B)$.
+	\item Soit $\ev{C}{La somme des yeux est supérieur à 9.}$. \\ Déterminer $p(C)$.
+	\item Soit $\ev{D}{Obtenir au moins un 6.}$. \\ Déterminer $p(D)$.
+	\item Soit $\ev{E}{Obtenir au moins un nombre pair.}$. \\ Déterminer $p(E)$.
+\end{enumerate}
+}{-}
+
+\addexo{On lance trois pièces de monnaie. Déterminer:
+\begin{enumerate}[label=$\bullet$]
+  \item l'univers $\Omega$.
+  \item les probabilités de chaque élément de l'univers.
+  \item $p(\text{\og obtenir deux fois pile\fg{}})$
+  \item $p(\text{\og obtenir deux fois face\fg{}})$
+  \item $p(\text{\og obtenir au moins 2 fois face\fg{}})$
+  \item $p(\text{\og obtenir au moins une fois face\fg{}})$
+\end{enumerate}
+}{$ \Omega = \left\lbrace (PPP); (PPF); .. \right\rbrace $.}
+
+
+\rem{On peut grouper les entrées dans l'arbre de choix selon les besoins. \id{nombre pair/impair}}
+
+\rem{On peut noter soit les cas possibles, soit les probabilités dans l'arbre de choix.
+Si on veut éviter les fractions, alors on prend les cas possibles.
+Mais ce n'est possible que si les résultats sont équiprobables.
+}
+
+
+\addexo{Au stand de foire, on propose le jeu suivant. Le joueur fait tourner la roue. Si l'aiguille indique un nombre pair, alors il tire un bille dans le sac. Si la bille est jaune, il gagne.
+Déterminer la probabilité de gagner ce jeu.
+\begin{center}
+  \includegraphics[width=6cm]{pictures/prob_2etapes.png}
+\end{center}
+}{-}
+
+\addexo{Un jeu consiste à tirer au hasard une boule du sac $A$. Si on tire une boule jaune, alors on a le droit de tirer une boule dans le sac $B$. On gagne alors un cadeau si on tire une boule bleue du sac $B$.
+\begin{center}
+	\includegraphics[width=6cm]{pictures/prob_2sacs.png}
+\end{center}
+Déterminer la probabilité de gagner ce jeu.
+}{\id{evt prob. enzel rechnen an da multiplizéiren fir ze weien dat et daat selwecht resultat get}}
+
+\addexo{Lors de la fête d'un club sportif, les organisateurs mettent en place un jeu pour gagner de l'argent pour le club avec la roue ci-dessous.
+\begin{center}
+  \includegraphics[width=3cm]{pictures/prob_roue2.png}
+\end{center}
+Il faut payer 2 \euro{} pour jouer le jeu.
+Si on tire un 1, on ne gagne rien.
+Si on tire un 2, on gagne 4 \euro.
+Si on tire un 3, on gagne 5 \euro.
+\begin{enumerate}
+	\item Que gagne le jouer finalement s'il tire un 2? Et s'il tire un 3?
+	\item Calculer la probabilité de perdre 2 \euro.
+	\item Calculer la probabilité de gagner 2 \euro.	
+	\item Calculer la probabilité de gagner 3 \euro.
+	\item Est-il favorable de jouer ce jeu?
+\end{enumerate}
+}{L'organisateur n'a pas bien calculé.}
+
+
+\addexo{Une urne contient sept boules indiscernables au toucher\,: quatre boules bleues et trois boules rouges.
+\begin{enumerate}
+	\item On tire successivement deux boules et on remet la boule tirée avant le deuxième tirage. Calculer les probabilités des événements suivants:
+	\begin{enumerate}
+		\item A=\og La première boule est bleue et la seconde boule est rouge. \fg{}
+		\item B=\og Les deux boules ont la même couleur. \fg{}
+	\end{enumerate}
+	\item Reprendre la question précédente en supposant que le tirage s'effectue sans remise.
+	\item Reprendre la question précédente en supposant que l'urne contienne aussi deux boules noires.
+\end{enumerate}
+}{-}
+
+
+
+\clearpage
+\begin{exercices}
+\foreach \x/\y in \exos
+{\exo \x
+% \ifnum\value{exo}=4 \columnbreak \fi
+% \ifnum\value{exo}=10 \columnbreak \fi
+% \ifnum\value{exo}=17 \columnbreak \fi
+% \ifnum\value{exo}=21 \columnbreak \fi
+ }
+\end{exercices}

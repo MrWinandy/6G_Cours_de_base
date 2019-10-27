@@ -1,0 +1,790 @@
+\chapter{Calcul littéral}
+
+\section{Expressions littérales}
+\noindent
+Formule pour calculer le périmètre (=\og Umfang \fg) d'un carré:
+$$ \mathcal{P}_{carré} = 4\cdot a $$
+Et pour l'aire d'un carré :
+$$ \mathcal{A}_{carré} = a\cdot a = a^2 $$
+L'aire d'un triangle :
+$$ \mathcal{A}_{\Delta} = \frac{b \cdot h}{2} $$
+Ce sont des expressions littérales:
+
+\defn{Une \textbf{expression littérale} est une expression dans laquelle un ou plusieurs nombres sont représentés par des lettres.
+Ces lettres sont appelés \textbf{variables}.
+}
+
+Si on connait la longueur d'un côté du carré, alors on peut calculer son périmètre : \\
+p. ex. si $a=5\, cm$, alors $\mathcal{P} = 4\cdot 5 = 20\, cm$.
+C'est une valeur \textbf{numérique} ($\rightarrow$ nombre)! \\
+Ou bien, si $x=12,5 m$ :...
+
+\rem{Une seule expression littérale peut admettre une infinité de \textbf{valeurs numériques} différentes! \\
+Les formules ci-dessus sont vraies pour toutes les valeurs (numériques) des lettres.
+}
+
+\addexo{Ecrire en fonction de $x$ la longueur $AB$.
+\begin{enumerate}
+\item \vspace{0pt}
+\begin{center}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\definecolor{cqcqcq}{rgb}{0.75,0.75,0.75}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=.9cm,y=.9cm]
+	\draw (1,2)node[above] {$A$}-- (3,2)node[above] {$B$} --(7,2);
+	\draw (2.02,2.08) -- (1.98,1.92);
+	\draw (4.02,2.08) -- (3.98,1.92);
+	\draw (6.02,2.08) -- (5.98,1.92);
+	\draw[|-|] (1,1.6)--node[below] {$x$} (7,1.6);
+	\fill [color=qqqqff] (1,2) circle (1.5pt);
+	\fill [color=qqqqff] (3,2) circle (1.5pt);
+	\fill [color=qqqqff] (5,2) circle (1.5pt);
+	\fill [color=qqqqff] (7,2) circle (1.5pt);
+\end{tikzpicture}
+\end{center}
+%
+\item \phantom{x}
+\begin{center}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\definecolor{cqcqcq}{rgb}{0.75,0.75,0.75}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=.6cm,y=.6cm]
+	\draw (1,2)node[above] {$A$}-- (3,2)node[above] {$B$} --(10,2);
+	\draw (2.02,2.08) -- (1.98,1.92);
+	\draw (4.02,2.08) -- (3.98,1.92);
+	\draw (6.02,2.08) -- (5.98,1.92);
+	\draw[color=black] (8.5,2) node[above] {$5$};
+	\draw[|-|] (1,1.5)--node[below] {$x$} (10,1.5);
+	\fill [color=qqqqff] (1,2) circle (1.5pt);
+	\fill [color=qqqqff] (3,2) circle (1.5pt);
+	\fill [color=qqqqff] (5,2) circle (1.5pt);
+	\fill [color=qqqqff] (7,2) circle (1.5pt);
+	\fill [color=qqqqff] (10,2) circle (1.5pt);
+\end{tikzpicture}
+\end{center}
+\end{enumerate}
+}{-}
+
+\noindent
+Ex. 25$-$27, 29, 30, 31, 35, 36 (écrire en fonction de $x$) p.130 (T5) \date{Bicher/T5/T5_p.130.jpg} \\
+Ex. 50, 51 p.132 (égalités d'expressions littérales) \date{Bicher/T5/T5_p.132.jpg}
+
+\defn{Deux \textbf{expressions littérales} sont \textbf{égales} si elles donnent le même résultat pour \uline{toutes les valeurs numériques} (!) qu'on peut donner aux lettres.
+}
+
+
+
+\section{La distributivité simple}
+\id{ajouter distributivité double
+}
+
+\addexo{Dire pour chaque cas s'il s'agit d'une somme ou d'un produit. Indiquer aussi le nombe de termes ou de facteurs.
+\begin{enumerate}
+  \item $ 9+x $
+  \item $ 9 \cdot x  $
+  \item $ 3 \cdot (x+5) $
+  \item $ 3 \cdot (x+5)-7$
+  \item $ 3 \cdot x \cdot (x+11) $ 
+\end{enumerate}
+}{Enoncé : Dire pour chaque cas s'il s'agit d'une somme ou d'un produit. Indiquer aussi le nombe de termes ou de facteurs.
+\begin{enumerate}
+  \item $ 9+x $ est une somme de deux termes.
+  \item $ 9 \cdot x  $ est un produit de deux facteurs.
+  \item $ 3 \cdot (x+5) $ est un produi de deux facteurs.
+  \item $ 3 \cdot (x+5)-7$ est une somme (différence) de deux termes.
+  \item $ 3 \cdot x \cdot (x+11) $ est un produit de 3 facteurs.
+\end{enumerate}
+}
+
+\addexo{Déterminer l'aire du grand rectangle (composé des deux petits) de deux façons différentes.
+\begin{center}
+\definecolor{qqwwcc}{rgb}{0,0.4,0}
+\definecolor{ccqqqq}{rgb}{0.8,0,0}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=.6cm]
+%	\clip(0.61,0) rectangle (7.5,4.4);
+%	\fill[color=gro,fill opacity=0.1] (1,1)-- (3.5,1)-- (3.5,5)-- (1,5)-- cycle;
+%	\draw[color=black!50] (1,1)-- (3.5,1)-- (3.5,5)-- (1,5)-- cycle;
+%	\draw[color=black!80] (3.5,1)-- (5,1) -- (5,5) -- (3.5,5) -- cycle;
+	\draw[|-|,color=ccqqqq] (1,.75) --node[below] {$a$} (3.5,.75);
+	\draw[|-|,color=qqwwcc] (3.5,.5) -- node[below] {$b$} (5,.5);
+	\draw[dashed] (3.5,1) --(3.5,5);
+	\draw (1,1)-- (5,1)-- (5,5)-- (1,5)--node[left] {$k$} cycle;
+%	\draw (3,-0.25) node {$a$ (2e cas)};	
+\end{tikzpicture}
+\end{center}
+}{\noindent
+Aire du grand rectangle: \\
+Longueur $\cdot$ largeur = $k \cdot (a+b) $
+\\
+Autre méthode: \hspace{3.5cm}
+$\mathcal{A}_{\text{rect. rouge}} + \mathcal{A}_{\text{rect. vert}} = k \cdot a + k \cdot b $
+\\
+Les deux expressions représentent la même aire et donc le même résultat!
+$$ \boxed{k \cdot (a+b) = k \cdot a + k \cdot b} $$
+}
+
+\addexo{Déterminer l'aire du rectangle gris (à gauche) de deux manières différentes.
+\begin{center}
+\definecolor{qqwwcc}{rgb}{0,0.4,0}
+\definecolor{ccqqqq}{rgb}{0.8,0,0}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=.6cm]
+%	\clip(0.61,0) rectangle (7.5,4.4);
+	\draw[color=gro,fill=gro,fill opacity=0.1] (1,1)-- (3.5,1)-- (3.5,5)-- (1,5)-- cycle;
+	\draw[color=black!60] (3.5,1)-- (5,1) -- (5,5) -- (3.5,5) -- cycle;
+%	\draw[|-|,color=ccqqqq] (1,.75) --node[below] {\red $a$} (3.5,.75);
+	\draw[|-|,color=qqwwcc] (3.5,.6) --node[below] {$b$} (5,.6);
+	\draw (1,1)-- (5,1)-- (5,5)-- (1,5)--node[left] {$k$} cycle;
+	\draw[|-|] (1,-.2)--node[below] {$a$} (5,-.2);
+\end{tikzpicture}
+\end{center}
+}{Les deux expressions représentent la même aire et donc le même résultat!
+$$ \boxed{k \cdot (a-b) = k \cdot a - k \cdot b} $$
+}
+
+\prop[La distributivité simple]{Quels que soient les nombres relatifs $a, b$ et $k$, on a :
+$$\begin{array}{rcll}
+    \multicolumn{3}{c}{\underrightarrow{développer}}\\
+    \tikz[baseline, anchor=base] \node (a) {$k \cdot (a+b)$};
+    &=&
+    \tikz[baseline, anchor=base] \node (c) {$k \cdot a + k \cdot b$}; \\
+    \tikz[baseline, anchor=base] \node (b) {$k \cdot (a-b)$};
+    &=&
+    \tikz[baseline, anchor=base] \node (d) {$k \cdot a - k \cdot b$}; \\
+    \multicolumn{3}{c}{\overleftarrow{factoriser}}
+%    \\ \multicolumn{3}{c}{\text{(mise en évidence)}}
+\end{array}$$
+}\label{distr}
+\begin{tikzpicture}[overlay]
+  \draw[dotted] (a.north west) rectangle (b.south east);
+  \node[anchor=east, text width=3.5cm] at (b.west) {produits \\ (formes factorisées)};
+  \draw[dotted] (c.north west) rectangle (d.south east);
+  \node[anchor=west, text width=4cm] at (d.east) {somme/différence (formes développées)};
+  \node[anchor=south west, xshift=-.75cm] at (c.north) {(= transformer un produit en une somme)};
+\end{tikzpicture}
+distribuer = \og verteilen \fg, développer = transformer un produit en une somme.
+
+\rem{Dans le calcul littéral, la distributivité simple est utilisé pour supprimer les parenthèses (si on veut effectuer) ou bien pour obtenir un produit ($\rightarrow$ équations, classe de 9e)
+}
+
+\rem{Dans le calcul numérique, on applique la DS pour rendre un calcul mental plus facile: \\
+$$\begin{array}[t]{rl}
+	 & 23 \cdot 103 \\
+	=& 23 \cdot (100+3) \\
+	=& 23 \cdot 100 + 23 \cdot 3 \\
+	=& 2369
+\end{array}
+\text{\hspace{.5cm} ou encore \hspace{.5cm}}
+\begin{array}[t]{rl}
+	 & 23 \cdot 99 \\
+	=& 23 \cdot (100-1) \\
+	=& 23 \cdot 100 - 23 \cdot 1 \\
+	=& 2277
+\end{array}$$
+}
+
+\noindent
+Ex. 48, 49 p.131 (T5) \date{Bicher/T5/T5_p.131.jpg}
+
+\addexo{Recopier et compléter.
+\begin{enumerate}[label=\alph*)]
+  \item $ 7 \cdot (6 - \ldots) = \ldots - \ldots \cdot x $
+  \item $ \ldots \cdot ( x \ldots y ) = k \cdot x - \ldots \cdot y $
+  \item $ 3 \cdot ( a - \ldots) = \ldots - 3 \cdot b $
+  \item $ \ldots \cdot ( x-\ldots) = 5 \cdot x - 10  $
+  \item $ 6 \cdot (\ldots + c) = 18 + \ldots \cdot c $
+  \item $ 2 \cdot (\ldots + a) = 6 + 2 \cdot \ldots $
+\end{enumerate}
+}{-}
+
+
+\section{La mise en évidence d'un facteur commun}
+\stitle{Problèmes}
+\begin{enumerate}[label=\alph*)]
+\item Calculer astucieusement (astucieux: \og pfiffig, schlau.\fg) $7 \cdot 985 + 7 \cdot 15$. \\
+Réponse:
+$\begin{array}[t]{rl}
+ & \underbrace{{\red 7} \cdot 985}_{\text{1er terme}} + \underbrace{{\red 7} \cdot 15}_{\text{2e terme}} \\
+= & {\red 7} \cdot (985+15) \\
+= & \underbrace{7}_{\text{1er facteur}} \cdot \underbrace{1000}_{\text{2e facteur}} \\
+= & 7000
+\end{array}$
+On a appliqué la distributivité pour mettre le facteur commun {\red 7} en évidence.
+
+\item
+$\begin{array}[t]{rll}
+ & \underset{\text{2 termes}}{\underbrace{{\red 7} \cdot a} + \underbrace{{\red 7} \cdot b}} & $Le facteur commun {\red 7} a été mis en évidence.$ \\
+= & \underset{\text{2 facteurs}}{\underbrace{{\red 7}} \cdot \underbrace{(a+b)}} &\leftarrow $ forme factorisée. (Les facteurs sont $7$ et $(a+b)$.)$
+\end{array}$
+
+\item
+$\begin{array}[t]{rll}
+ & {\red 3} \cdot a + {\red 3} \cdot b \\
+= & {\red 3} \cdot (a+b) &\leftarrow $ forme factorisée. (Les facteurs sont $3$ et $(a+b)$.)$
+\end{array}$
+
+\item
+$\begin{array}[t]{rll}
+ & {\red k} \cdot a + {\red k} \cdot b &$Le facteur commun {\red k} est mis en évidence.$ \\
+= & {\red k} \cdot (a+b) &\leftarrow $ forme factorisée. (Les facteurs sont $k$ et $(a-b)$.)$
+\end{array}$
+\end{enumerate}
+
+C'est la distributivité simple:
+$$\begin{array}{rcl}
+    \multicolumn{3}{c}{\underrightarrow{développer}} \\
+    \tikz[baseline] \node (a) { $k \cdot (a+b)$ };
+     &=&
+    \tikz[baseline] \node (c) { $k \cdot a + k \cdot b$ };  \\
+    \tikz[baseline] \node (b) { $k \cdot (a-b)$ };
+     &=& 
+    \tikz[baseline] \node (d) { $k \cdot a - k \cdot b$ }; \\
+    \multicolumn{3}{c}{\overleftarrow{factoriser}}
+%    \\ \multicolumn{3}{c}{\text{(mise en évidence)}}
+\end{array} $$
+\tikz[overlay] \draw[dotted] (a.north west) rectangle (b.south east);
+\tikz[overlay] \draw[dotted] (c.north west) rectangle (d.south east);
+\tikz[overlay] \node[anchor=east] at (b.west) {formes factorisées $\rightarrow$ \,};
+\tikz[overlay] \node[anchor=west] at (d.east) {\, $\leftarrow$ formes développées};
+  
+
+\noindent
+Ex. 46,47 p.131 (T5) \date{Bicher/T5/T5_p.131.jpg}
+
+
+
+\section{Réduire des expressions littérales}
+Pour faciliter l'écriture, le signe de multiplication peut être omis si un des facteur est une variable (et donc une lettre):
+$$ \begin{array}{rll}
+  x \cdot y & = & xy \\
+  3 \cdot a & = & 3a \\
+  5 \cdot (x+y) &=& 5(x+y) \\
+  a \cdot a &=& a^2 \\
+  1 \cdot a &=& a \\
+  x \cdot x \cdot x \cdot y \cdot y = x^3\cdot y^2 &=& x^3y^2
+\end{array} $$
+
+\rem{Si $x=3$, alors $2x= 2\cdot 3 \neq 23$.}
+  
+Comme  $a \cdot b = b \cdot a$, on a aussi:
+$$ \boxed{ ab = ba} \text{ Commutativité de la multiplication} $$
+De même: $ anna = aann= a^2n^2 $.
+
+\addexo{Ecrire les expressions suivantes sous la forme la plus courte possible.
+\begin{multicols}{2}
+\begin{enumerate}
+  \item $x \cdot y \cdot x = $
+  \item $7 \cdot a \cdot 5 = $
+  \item $3 \cdot b \cdot b = $
+  \item $3 \cdot z \cdot x \cdot x = $
+  \item $1 \cdot x = $
+  \item $0 \cdot a = $
+\end{enumerate}
+\end{multicols}
+}{-}
+
+
+Considérons l'expression littérale $2\cdot y = 2y$: \\
+$2$ est appelé coefficient numérique et \\
+$y$ est la partie littérale de $2 \cdot y$; ce sont toutes les inconnues avec leurs exposants respectifs. \\
+Par exemple:
+$$\begin{array}{c|c|c|l}
+  \textbf{expression littérale} & \textbf{coefficient} & \textbf{partie littérale} \\
+  \cline{1-3}
+  2 y & 2 & y &\tikz[baseline]{\node[xshift=-1cm] (1) {};} \\
+  \cline{1-3}
+  -4 a & -4 & a \\
+  \cline{1-3}
+  5 x y & 5 & x y &\tikz[baseline]{\node[anchor=west] (mid) {même partie littérale};}  \\
+  \cline{1-3}
+  9 x \cdot x = 9 x^2 & 9 & x \cdot x = x^2 \\
+  \cline{1-3}
+  7 y & 7 & y &\tikz[baseline]{\node[anchor=east] (2) {};} \\
+  \cline{1-3}
+  -42 l u x & -42 & l u x \\
+  \cline{1-3}
+  a\cdot 5 \cdot b=5ab & 5 & ab \\
+  \cline{1-3}
+\end{array}$$
+
+\begin{tikzpicture}[overlay]
+\path[<-] (1) edge[out=0, in=90] (mid);
+\path[->] (mid) edge[out=270, in=0] (2);
+\end{tikzpicture}
+
+Tous les termes ayant une partie littérale identique sont appelés \textbf{termes semblables}. \\
+Ce sont ici $2y$ et $7y$. Si on les ajoute, on obtient:
+$$\begin{array}[t]{rll}
+ & 2{\red y} +7{\red y} &$Le facteur commun {\red $y$} est mis en évidence.$ \\
+=& (2+7) \cdot {\red y} \\
+=& 9 \cdot y
+\end{array}$$
+
+\ret{Pour ajouter deux termes \uline{semblables}, il faut:
+\begin{enumerate}[label=\arabic*.]
+	\item ajouter les coefficients,
+	\item garder la partie littérale.
+\end{enumerate}
+}
+
+\rem{Cette méthode marche aussi avec des fractions: \\
+$ \frac{1}{2}x +\frac{1}{2}x =.. $
+ou bien
+$ \frac{1}{3}x +\frac{3}{4}x =..$
+\\
+Mais $\frac{2}{3}x+\frac{2}{3}x^2$ ne peut pas être effectué! ($\neq$ termes semblables.)
+}
+
+\ret{Une multiplication peut toujours être effectuée, tandis qu'on a besoin d'une \textbf{même partie littérale pour ajouter} des termes:
+\begin{enumerate}[label=\alph*)]
+  \item $ 3m \cdot 6m = 6m^2 $
+  \item $ 18m^2 \cdot 2m^2 = 36m^3 $
+  \item $ 3m + 6m = 9m $
+  \item $ 18m^2 + 2m^2 $ ne peut pas être réduit.
+\end{enumerate}
+}
+
+\noindent
+\arrow Ex. 55-57, 59, 62 p.132 (T5) \date{Bicher/T5/T5_p.132.jpg}
+
+
+
+\section{Exercices supplémentaires}
+\addexo{Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ 2 \cdot (5+3x)= $
+	\item $ 5 \cdot (a+x)= $
+	\item $ 8 (4-y)= $
+	\item $ x (5+3x)= $
+	\item $ a (a-7b)= $
+	\item $ c (y-6c)= $
+\end{enumerate}
+}{Enoncé: Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ 6x+10 $
+	\item $ 5a+5x $
+	\item $ 32-8y $
+	\item $ 5a+3x^2 $
+	\item $ a^2 -7ab $
+	\item $ cy-6c^2 $
+\end{enumerate}
+}
+\addexo{Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ 9 (15+32x)= $
+	\item $ 5a (a+2x)= $
+	\item $ 7c (5y-2c)= $
+	\item $ 7x (6x-y)= $
+	\item $ 11a (2+8ab)= $
+	\item $ 9ab (a-7b)= $
+\end{enumerate}
+}{Enoncé: Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ 135-288x $
+	\item $ 5a^2+10ax $
+	\item $ 35cy-14c^2 $
+	\item $ 42x^2-7xy $
+	\item $ 22y+88a^2b $
+	\item $ 9a^2b-63ab^2 $
+\end{enumerate}
+}
+\addexo{Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ 2(a+b+2)= $
+	\item $ 3(x-7+y)= $
+	\item $ a(2x+a-b)= $
+	\item $ x(2x-a-b)= $
+	\item $ 2b(6-a+b)= $
+	\item $ 7x(x+3y-5)= $
+\end{enumerate}
+}{Enoncé: Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ 2a+2b+4 $
+	\item $ 3x+3y-21 $
+	\item $ a^2-ab+2ax $
+	\item $ 2x^2-ax-bx $
+	\item $ 2b^2 -2ab +12b $
+	\item $ 7x^2+21xy-35x $
+\end{enumerate}
+}
+\addexo{Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ x (x-2y+5xy)= $
+	\item $ 2x(y-5x+7b)= $
+	\item $ 7a(5b-6a+7ab)= $
+	\item $ 8z(9u-10zu-11u^2)= $
+	\item $ 7s(-12t-6s)= $
+	\item $ 12a(5a+7b-6c)= $
+\end{enumerate}
+}{Enoncé: Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ x^2-2xy+5x^2y $
+	\item $ 2xy-10x^2+14bx $
+	\item $ 35ab-42a^2+49a^2b $
+	\item $ 72zu-80z^2u-88zu^2 $
+	\item $ -84st-42s^2 $
+	\item $ 60a^2+84ab-72ac $
+\end{enumerate}
+}
+\addexo{Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ ab(5a-2b)= $
+	\item $ xy(-x-8+y)= $
+	\item $ xy(7x+6y-2xy)= $
+	\item $ 4ax(5a-3b+7ax)= $
+	\item $ 6an(an+ne)= $
+	\item $ 9ab(-7a+5ab-4b)= $
+\end{enumerate}
+}{Enoncé: Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ 5a^2b-2ab^2 $
+	\item $ -x^2y-8xy+xy^2 $
+	\item $ 7x^2y +6xy^2 -2x^2y^2 $
+	\item $ 20a^2x -12abx +28a^2x^2 $
+	\item $ 6a^2n^2 +6an^2e $
+	\item $ -63a^2b +45a^2b^2 -36ab^2 $
+\end{enumerate}
+}
+\addexo{Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ -2(5+x)= $
+	\item $ -7(6-8x)= $
+	\item $ -x(3+x)= $
+	\item $ -y(5-y)= $
+	\item $ -(-a+b)= $
+	\item $ -(a-b)= $
+\end{enumerate}
+}{Enoncé: Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ -x-10 $
+	\item $ 56x-42 $
+	\item $ -x^2-3x $
+	\item $ y^2-5y $
+	\item $ a-b $
+	\item $ b-a $
+\end{enumerate}
+}
+\addexo{Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ -2x(5+x)= $
+	\item $ -7y(6-8x)= $
+	\item $ -4y(3y+5x)= $
+	\item $ -5y(5y-9)= $
+	\item $ -12a(5a-b)= $
+	\item $ -3b(8a-11b)= $
+\end{enumerate}
+}{Enoncé: Développer les expressions suivantes.
+\begin{enumerate}
+	\item $ -2x^2-10x $
+	\item $ 56xy-42y $
+	\item $ -12y^2-20xy $
+	\item $ -25y^2+45 $
+	\item $ -60a^2+12ab $
+	\item $ 33b^2-24ab $
+\end{enumerate}
+}
+
+
+\addexo{\textbf{Réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ 12 +6x -7x^2 -9x +4x^2 -15 = $
+	\item $ a-2a-5+3a+7-4a-13 = $
+	\item $ -5x+4y-12y+3x+y= $
+	\item $ 9x^2-13x+x-5x^2-9x+17= $
+	\item $ 8x-3+5y-2x+3y-11x= $
+	\item $ 8a-3b+7+13a+17b-5a-25b-45= $
+\end{enumerate}
+}{Enoncé: Réduire les expressions suivantes.
+\begin{enumerate}
+	\item $ -3x^2-3x-3 $
+	\item $ -2a-11 $
+	\item $ -2x-7y $
+	\item $ 4x^2-21x+17 $
+	\item $ -5x+8y-3 $
+	\item $ 16a-11b-38 $
+\end{enumerate}
+}
+\addexo{Si possible, \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ \frac{2}{4}x-\frac{5}{6}x= $
+	\item $ \frac{25}{10}y+\frac{12}{18}y= $
+	\item $ \frac{1}{9}x-\frac{1}{10}y= $
+	\item $ \frac{27}{36}x^2 -\frac{16}{20}x +\frac{2}{11}x^2+\frac{4}{5}x= $
+	\item $ \frac{1}{5}xy +\frac{4}{5}x-\frac{1}{6}y= $
+	\item $ \frac{25}{50}x^2 -2x^2 +\frac{4}{5}x= $
+\end{enumerate}
+}{-}
+\addexo{Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ 19-3(x+2) = $
+	\item $ 42 -x +3(2x+6) = $
+	\item $ 3(9-y)-5(2+7y)= $
+	\item $ 3(x-y+5)+5(2y-7x)= $
+	\item $ 3(a-2b+c) +5(8+7b-a) = $
+	\item $ -2\cdot(a-b+c) +3\cdot (-a+b+c) - 3 \cdot (b-c) = $
+\end{enumerate}
+}{Enoncé: Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ -3x+13 $
+	\item $ 5x+60 $
+	\item $ -38y+17 $
+	\item $ -32x+7y+15 $
+	\item $ -2a+29b+3c+40 $
+	\item $ -5a+2b+4c $
+\end{enumerate}
+}
+\addexo{Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ 45-20(x+2)-4x= $
+	\item $ 12y-(5y+8)= $
+	\item $ 10-3(a-5b+4)-(2b-3a)= $
+	\item $ 11z-8z^2-(2z^2-15z+5)+4z-9= $
+	\item $ 2(5a-7b+c+4)-3(5-a-4b-c)= $
+	\item $ 3(x^2+x-2)-(3x^2+x+5)-x= $
+\end{enumerate}
+}{Enoncé: Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ -24x+5 $
+	\item $ 7y-8 $
+	\item $ 3b+6 $
+	\item $ -10z^2+30z-14 $
+	\item $ 13a-2b+5c-7 $
+	\item $ x-11 $
+\end{enumerate}
+}
+\addexo{Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ -6(2a-4b+1)+7(5-3a-b)= $
+	\item $ 3x^2+2(1-x)-(2x-1)+x^2= $
+	\item $ x+14y +4x +2(x-5y) = $
+	\item $ 12a(3-7b+ax)= $
+	\item $ -5(x-4y+9)+3(4-2x-8y)= $
+	\item $ 3(2a-5b+8)-5(7-a+2b)= $
+\end{enumerate}
+}{Enoncé: Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ -33a+17b+29 $
+	\item $ 4x^2-4x+3 $
+	\item $ 7x+4y $
+	\item $ 12a^2x-84ab+36a $
+	\item $ -11x-4y-33 $
+	\item $ 11a-25b-11 $
+\end{enumerate}
+}
+\addexo{Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ 5-x(2x+7)+3\left(x^2-x+4\right)= $
+	\item $ (5x-2)-(-7+x)-(3-2x)= $
+	\item $ a(2a+b)-7a(a+2b)+3b(a-2b)= $
+	\item $ -8a(b+c)+5b(2c-a)= $
+	\item $ 3a-2 \cdot \left[ (a-b)-(5a+2b)\right]= $
+	\item $ 19-2\left( x^2-3x+1 \right) -\left(5x^2-x+23 \right)= $
+\end{enumerate}
+}{Enoncé: Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ x^2-10x+17 $
+	\item $ 6x+2 $
+	\item $ -5a^2-10ab-6b^2 $
+	\item $ 10bc-13ab-8ac $
+	\item $ 11a+6b $
+	\item $ -7x^2+7x-6 $
+\end{enumerate}
+}
+\addexo{Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ 4(a-b)-3(2a+b)+9b= $
+	\item $ 2c-7c(3c-5)+c(15-c)= $
+	\item $ 12a(2b+7)+(3a-1)\cdot 15b-(74a+9ab)= $
+	\item $ w(3w+4)-7-8w(-5-3w)-2(5-3w)= $
+	\item $ 2(3y+7)+2y+5(6-y)-8(2y-3)= $
+	\item $ 3a-2a^2-(-a^2+3+8a-5)+(5a-7-3a^2+6+2a)= $
+\end{enumerate}
+}{Enoncé: Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ 2b-2a $
+	\item $ -22c^2+52c $
+	\item $ 60ab+10a-15b $
+	\item $ 27w^2+50w-17 $
+	\item $ -13y+68 $
+	\item $ -4a^2+2a+1 $
+\end{enumerate}
+}
+\addexo{Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ 16x+6x\cdot x +3x (x-2)+(5x-3)\cdot x = $
+	\item $ -12(4x-y-3)-8(7x+6y+3)+25+9x = $
+	\item $ -(y-3x+2z)+(-x-z)-(3y+2x)= $
+	\item $ x(x-3)-2x(1-x)= $
+	\item $ 13a-4(2b+a-1)-(7a+5b-8)= $
+	\item $ \left(4-3x^2+5x\right)$ $-\left(-2x+x^2\right)$ $-\left(2x^2-1\right) = $
+\end{enumerate}
+}{Enoncé: Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ 14x^2+7x $
+	\item $ -95x-36y+37 $
+	\item $ -4y-32 $
+	\item $ 3x^2-5x $
+	\item $ 2a-13b+12 $
+	\item $ -6x^2+7x+5 $
+\end{enumerate}
+}
+\addexo{Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ 2+5x(x-2)-3\left(15x-7x^2+11\right) = $
+	\item $ 7x(2x-5)-4x(3-5x)= $
+	\item $ -5(x-4y+9)+3(4-2x-8y)= $
+	\item $ 6x\cdot 9 -7\cdot 6x^2+(-8x)\cdot(-3x)-9x \cdot 5 = $
+	\item $ 3y^2+2(1-3y)-(7y-1)-5y^2= $
+	\item $ -10(-10x+2)+4x(5x-8)= $
+\end{enumerate}
+}{Enoncé: Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ 26x^2-55x-31 $
+	\item $ 34x^2-47x $
+	\item $ -11x-4y-33 $
+	\item $ -18x^2+9x $
+	\item $ -2y^2-13y+3 $
+	\item $ 20x^2+68x-20 $
+\end{enumerate}
+}
+\addexo{Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ (-4x-8)\cdot 6+(10x-6)\cdot \left( -3x\right) = $
+	\item $ 9x\cdot(2x-5)+ (7x-7)\cdot 7x - x\cdot(-5x+7) = $
+	\item $ -9(-9x-4) -x(6x+5)+ 6(7x-8)- 6(-5x-8) = $
+	\item $ -3x(6x-10) -9(-7x-8) +8(-x+6) -6(3x+7) = $
+	\item $ 5x(8x-4) -4x(6x-6) -5(x+8) = $
+	\item $ 9(-8x-7) -2x(7x-7)+ 7x(-7x+6) = $
+\end{enumerate}
+}{Enoncé: Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ -38x^2-6x^2-48 $
+	\item $ 62x^2-87x $
+	\item $ -6x^2+148x+36 $
+	\item $ -18x^2+67x+78 $
+	\item $ 16x^2-x-40 $
+	\item $ -63x^2-16x-63 $
+\end{enumerate}
+}
+\addexo{Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ 5x\left[10x-6-4(-3x-9)\right] = $
+	\item $ 2(-2x+6) -4(-6x-3) = $
+	\item $ (3x-10)\cdot \left( -2\right) -7x(10x-9)+ 5(-7x+8) = $
+	\item $ -x(7x-8) -9x\left[-x+6-7x-(2x+7)\right] $
+	\item $ 10(6x-5)- 7\left[5x-5-3(-10x+3)\right] = $
+	\item $ 784x+5\,790xy+2\,024x^2-751\,544y = $
+\end{enumerate}
+}{Enoncé: Développer et \textbf{réduire} les expressions suivantes.
+\begin{enumerate}
+	\item $ 110x^2+150x $
+	\item $ 20x+24 $
+	\item $ -70x^2+22x+60 $
+	\item $ 83x^2+17x $
+	\item $ -185x+48 $
+	\item Il n'y a pas de termes semblables qu'on peut ajouter.
+\end{enumerate}
+}
+
+\addexo{Factoriser les expressions suivantes.
+\begin{enumerate}
+	\item $ 15x+5y= $
+	\item $ 13ab-7b= $
+	\item $ 18x-12y= $
+	\item $ 33a-121b= $
+	\item $ 23ab+b= $
+	\item $ 3a^2-7ab= $
+\end{enumerate}
+}{Enoncé: Factoriser les expressions suivantes.
+\begin{enumerate}
+	\item $ 5(3x+y) $
+	\item $ b(13a-7) $
+	\item $ 6(3x-2y) $
+	\item $ 11(3a-12b) $
+	\item $ b(23a+1) $
+	\item $ a(3a-7ab) $
+\end{enumerate}
+}
+\addexo{Factoriser les expressions suivantes.
+\begin{enumerate}
+	\item $ 8a^2b-5b= $
+	\item $ 17ac-6a^2c= $
+	\item $ 4a-6a^2= $
+	\item $ 9x-6x^2= $
+	\item $ 27ax-18x= $
+	\item $ 26a^2-169a= $
+\end{enumerate}
+}
+{Enoncé: Factoriser les expressions suivantes.
+\begin{enumerate}
+	\item $ b(8a^2-5) $
+	\item $ ac(17-6a) $
+	\item $ 2a(2-3a) $
+	\item $ 3x(3-2x) $
+	\item $ 9x(3a-2) $
+	\item $ 13a(2a-13) $
+\end{enumerate}
+}
+\addexo{Si possible, factoriser les expressions suivantes. Sinon, expliquer pourquoi il est impossible de factoriser.
+\begin{enumerate}
+	\item $ 8x-16x^2= $
+	\item $ 14xy-196y= $
+	\item $ 5x-12y= $
+	\item $ 9y+12xy^2= $
+	\item $ 7x+xy+y= $
+	\item $ 30xy+15x= $
+\end{enumerate}
+}{Enoncé: Si possible, factoriser les expressions suivantes. Sinon, expliquer pourquoi il est impossible de factoriser.
+\begin{enumerate}
+	\item $ 8x(1-2x) $
+	\item $ 14y(x-14) $
+	\item Les deux termes n'ont aucun facteur commun. Il est impossible de factoriser.
+	\item $ 3y(3+4xy) $
+	\item Les trois termes $7x$, $xy$ et $y$ n'ont aucun facteur commun. Il est impossible de factoriser.
+	\item $ 15x(2y+1) $
+\end{enumerate}
+}
+\addexo{Si possible, factoriser les expressions suivantes. Sinon, expliquer pourquoi il est impossible de factoriser.
+\begin{enumerate}
+	\item $ 2x^2+8xy= $
+	\item $ 21y^2+14y= $
+	\item $ 3a+6a^2+3= $
+	\item $ 3xy-9x+10y= $
+	\item $ 25x^2-5x+15xy= $
+	\item $ 8xy+4y-16y^2= $
+\end{enumerate}
+}{Enoncé: Si possible, factoriser les expressions suivantes. Sinon, expliquer pourquoi il est impossible de factoriser.
+\begin{enumerate}
+	\item $ 2x(x+4y) $
+	\item $ 7y(3y+2) $
+	\item $ 3(a+2a^2+1) $
+	\item Les trois termes $3xy$, $-9x$ et $10y$ n'ont aucun facteur commun. Il est impossible de factoriser.
+	\item $ 5x(5x-1+3y) $
+	\item $ 4y(2x+1-4y) $
+\end{enumerate}
+}
+
+
+
+
+
+
+
+
+
+%%% -------------------------------- EXERCICEN PRINTEN
+
+\clearpage
+\begin{exercices}
+\foreach \x/\y in \exos
+{\exo \x
+% \ifnum\value{exo}=10 \columnbreak \fi
+% \ifnum\value{exo}=15 \columnbreak \fi
+% \ifnum\value{exo}=20 \columnbreak \fi
+% \ifnum\value{exo}=24 \columnbreak \fi
+ }
+\end{exercices}
+
+\clearpage
+\begin{solutions}
+\foreach \x/\y in \exos
+ {\sol \y
+  }
+\end{solutions}
