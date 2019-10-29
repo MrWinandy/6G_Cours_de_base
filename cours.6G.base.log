@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.25)  29 OCT 2019 11:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.25)  29 OCT 2019 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2527,10 +2527,10 @@ Package rerunfilecheck Info: File `cours.6G.base.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 50783 strings out of 492616
- 1115081 string characters out of 6129481
- 1570523 words of memory out of 5000000
- 53002 multiletter control sequences out of 15000+600000
+ 50803 strings out of 492616
+ 1115427 string characters out of 6129481
+ 1573442 words of memory out of 5000000
+ 53014 multiletter control sequences out of 15000+600000
  650741 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,13n,100p,9092b,1259s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2564,10 +2564,10 @@ pe1/public/lm/lmsy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/
 lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy9.pf
 b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb>
-Output written on cours.6G.base.pdf (29 pages, 573915 bytes).
+Output written on cours.6G.base.pdf (29 pages, 576436 bytes).
 PDF statistics:
- 1491 PDF objects out of 1728 (max. 8388607)
- 1283 compressed objects within 13 object streams
- 789 named destinations out of 1000 (max. 500000)
- 945 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1505 PDF objects out of 1728 (max. 8388607)
+ 1295 compressed objects within 13 object streams
+ 797 named destinations out of 1000 (max. 500000)
+ 957 words of extra memory for PDF output out of 10000 (max. 10000000)
 
