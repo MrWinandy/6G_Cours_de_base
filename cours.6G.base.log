@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.25)  29 OCT 2019 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.25)  21 JAN 2020 09:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1824,7 +1824,8 @@ File: block.tss 2016/03/15
 \c@templ=\count383
 \c@tmpcounter=\count384
 ) (./cours.6G.base.aux (./cours.6Gb.ch1.nombres.relatifs.aux) (./cours.6Gb.ch2.
-puissances.aux))
+puissances.aux) (./cours.6Gb.ch3.triangles.aux)
+(./cours.6Gb.ch4.nombres.rationnels.aux))
 \openout1 = `cours.6G.base.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -2337,21 +2338,21 @@ Overfull \vbox (2.91692pt too high) has occurred while \output is active []
  (./cours.6Gb.ch2.puissances.tex
 chapter II.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 16.
+(Font)              <10> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 16.
+(Font)              <7> on input line 28.
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
 
-Overfull \hbox (0.4pt too wide) in paragraph at lines 39--40
+Overfull \hbox (0.4pt too wide) in paragraph at lines 51--52
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
@@ -2378,16 +2379,6 @@ olor page stack 0
 pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
 olor page stack 0
 ]
-Overfull \hbox (0.4pt too wide) in paragraph at lines 98--99
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-
- []
-
-
 Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 
 
@@ -2395,26 +2386,7 @@ Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 
 
-[16]
-Overfull \hbox (0.4pt too wide) in paragraph at lines 204--205
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
-
- []
-
-
-Overfull \vbox (2.91692pt too high) has occurred while \output is active []
-
-
-[17
+[16
 
 pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
 olor page stack 0
@@ -2423,12 +2395,27 @@ olor page stack 0
 pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
 olor page stack 0
 ]
-Overfull \hbox (0.4pt too wide) in paragraph at lines 267--268
+Overfull \hbox (0.4pt too wide) in paragraph at lines 238--239
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+
+Overfull \hbox (0.4pt too wide) in paragraph at lines 304--305
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
@@ -2436,13 +2423,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--268
 Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 
 
-[18]
-Overfull \hbox (0.4pt too wide) in paragraph at lines 334--335
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+[]$\OT1/lmr/m/n/10 123 456 :
+ []
+
+
+Overfull \hbox (0.4pt too wide) in paragraph at lines 370--371
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
 
  []
 
@@ -2450,7 +2442,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--335
 Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 
 
-[19
+[18
 
 pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
 olor page stack 0
@@ -2459,6 +2451,35 @@ olor page stack 0
 pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
 olor page stack 0
 ]
+Overfull \hbox (3.69858pt too wide) in paragraph at lines 418--418
+[]$\OT1/lmr/m/n/10 80 000 000 000 000$ 
+ []
+
+
+Overfull \hbox (16.47636pt too wide) in paragraph at lines 418--418
+[]$\OT1/lmr/m/n/10 0\OML/lmm/m/it/10 ;\OT1/lmr/m/n/10 000 000 000 000 001$ 
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[19]
+Overfull \hbox (0.4pt too wide) in paragraph at lines 521--530
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--530
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+
+ []
+
+
 Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 
 
@@ -2467,18 +2488,8 @@ Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 
 
 [21]
-Overfull \hbox (0.4pt too wide) in paragraph at lines 485--491
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--491
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
-
+Overfull \hbox (36.6546pt too wide) in paragraph at lines 751--751
+[]$[]$ 
  []
 
 
@@ -2490,10 +2501,32 @@ Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 
 
 [23]
+File: pictures/pts_dans_le_plan.jpg Graphic file (type jpg)
+<use pictures/pts_dans_le_plan.jpg>
+Package pdftex.def Info: pictures/pts_dans_le_plan.jpg  used on input line 832.
+
+(pdftex.def)             Requested size: 128.0374pt x 137.0847pt.
+
 Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 
 
-[24]
+[24
+
+]
+File: pictures/pts_dans_le_plan2.jpg Graphic file (type jpg)
+<use pictures/pts_dans_le_plan2.jpg>
+Package pdftex.def Info: pictures/pts_dans_le_plan2.jpg  used on input line 832
+.
+(pdftex.def)             Requested size: 170.71652pt x 98.20435pt.
+
+Overfull \hbox (2.85419pt too wide) detected at line 832
+\OML/lmm/m/it/12 A\OT1/lmr/m/n/12 (+5; +4);  \OML/lmm/m/it/12 B\OT1/lmr/m/n/12 
+(+5; +8); \OML/lmm/m/it/12 C\OT1/lmr/m/n/12 (\OMS/lmsy/m/n/12 ^^@\OT1/lmr/m/n/1
+2 3; +4); \OML/lmm/m/it/12 D\OT1/lmr/m/n/12 (\OMS/lmsy/m/n/12 ^^@\OT1/lmr/m/n/1
+2 3; +8)\OML/lmm/m/it/12 :
+ []
+
+
 Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 
 
@@ -2501,25 +2534,591 @@ Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 
 
-[26
-
-]
+[26]
 Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 
 
 [27]
+Underfull \hbox (badness 10000) in paragraph at lines 832--832
+$\OT1/lmr/m/n/12 11 +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 832--832
+\OT1/lmr/m/n/12 10  :
+ []
+
+
 Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 
 
-[28])
+[28]
 Overfull \vbox (2.91692pt too high) has occurred while \output is active []
 
 
 [29]
+Underfull \hbox (badness 10000) in paragraph at lines 832--832
+[]$\OT1/lmr/m/n/12 123 456 :
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[30]
+Overfull \hbox (5.62314pt too wide) in paragraph at lines 832--832
+[]$\OT1/lmr/m/n/12 80 000 000 000 000$ 
+ []
+
+
+Overfull \hbox (20.63696pt too wide) in paragraph at lines 832--832
+[]$\OT1/lmr/m/n/12 0\OML/lmm/m/it/12 ;\OT1/lmr/m/n/12 000 000 000 000 001$ 
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[31]
+Overfull \hbox (44.7311pt too wide) in paragraph at lines 832--832
+[]$[]$ 
+ []
+
+)
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[32]
+\openout2 = `cours.6Gb.ch3.triangles.aux'.
+
+ (./cours.6Gb.ch3.triangles.tex
+chapter III.
+<pictures/mathematic_angles_et_constructions.png, id=1576, 657.2053pt x 362.855
+62pt>
+File: pictures/mathematic_angles_et_constructions.png Graphic file (type png)
+<use pictures/mathematic_angles_et_constructions.png>
+Package pdftex.def Info: pictures/mathematic_angles_et_constructions.png  used 
+on input line 15.
+(pdftex.def)             Requested size: 256.0748pt x 141.38577pt.
+
+Overfull \hbox (187.68576pt too wide) in paragraph at lines 14--16
+[]\T1/lmr/m/sl/12 Mathematic erklä-ren an schon den 2 an 3 als Hau-sauf-gab maa
+-chen loos-sen. []\T1/lmr/m/n/12 cen-ter [] 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \end{center}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.16 \end{center}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+
+Overfull \hbox (0.4pt too wide) in paragraph at lines 22--27
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Overfull \hbox (0.4pt too wide) in paragraph at lines 193--194
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Overfull \hbox (0.4pt too wide) in paragraph at lines 196--197
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+
+Overfull \hbox (0.4pt too wide) in paragraph at lines 203--204
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[33
+
+
+
+
+
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+ <./pictures/mathematic_angles_et_constructions.png>]
+Overfull \hbox (249.73303pt too wide) in paragraph at lines 272--284
+\T1/lmr/m/sl/12 der näch-ser Stonn fol-gende Ré-sumé op-schrei-wen. [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--284
+
+ []
+
+
+Overfull \hbox (0.4pt too wide) in paragraph at lines 304--305
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[34
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+]
+File: pictures/pts_dans_le_plan.jpg Graphic file (type jpg)
+<use pictures/pts_dans_le_plan.jpg>
+Package pdftex.def Info: pictures/pts_dans_le_plan.jpg  used on input line 339.
+
+(pdftex.def)             Requested size: 128.0374pt x 137.0847pt.
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[35
+
+]
+File: pictures/pts_dans_le_plan2.jpg Graphic file (type jpg)
+<use pictures/pts_dans_le_plan2.jpg>
+Package pdftex.def Info: pictures/pts_dans_le_plan2.jpg  used on input line 339
+.
+(pdftex.def)             Requested size: 170.71652pt x 98.20435pt.
+
+Overfull \hbox (2.85419pt too wide) detected at line 339
+\OML/lmm/m/it/12 A\OT1/lmr/m/n/12 (+5; +4);  \OML/lmm/m/it/12 B\OT1/lmr/m/n/12 
+(+5; +8); \OML/lmm/m/it/12 C\OT1/lmr/m/n/12 (\OMS/lmsy/m/n/12 ^^@\OT1/lmr/m/n/1
+2 3; +4); \OML/lmm/m/it/12 D\OT1/lmr/m/n/12 (\OMS/lmsy/m/n/12 ^^@\OT1/lmr/m/n/1
+2 3; +8)\OML/lmm/m/it/12 :
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[36]
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
+$\OT1/lmr/m/n/12 11 +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
+\OT1/lmr/m/n/12 10  :
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[38]
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
+[]$\OT1/lmr/m/n/12 123 456 :
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[40]
+Overfull \hbox (5.62314pt too wide) in paragraph at lines 339--339
+[]$\OT1/lmr/m/n/12 80 000 000 000 000$ 
+ []
+
+
+Overfull \hbox (20.63696pt too wide) in paragraph at lines 339--339
+[]$\OT1/lmr/m/n/12 0\OML/lmm/m/it/12 ;\OT1/lmr/m/n/12 000 000 000 000 001$ 
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[41]
+Overfull \hbox (44.7311pt too wide) in paragraph at lines 339--339
+[]$[]$ 
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[42])
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[43]
+\openout2 = `cours.6Gb.ch4.nombres.rationnels.aux'.
+
+ (./cours.6Gb.ch4.nombres.rationnels.tex
+chapter IV.
+! Argument of \NROrg@ifthenelse has an extra }.
+<inserted text> 
+                \par 
+l.27 }
+      
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \NROrg@ifthenelse was complete.
+<to be read again> 
+                   \par 
+l.27 }
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+<pictures/mathematic_nombres_en_ecriture_fractionnaire.png, id=2357, 530.73282p
+t x 300.3722pt>
+File: pictures/mathematic_nombres_en_ecriture_fractionnaire.png Graphic file (t
+ype png)
+<use pictures/mathematic_nombres_en_ecriture_fractionnaire.png>
+Package pdftex.def Info: pictures/mathematic_nombres_en_ecriture_fractionnaire.
+png  used on input line 34.
+(pdftex.def)             Requested size: 227.62204pt x 128.82294pt.
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[44
+
+
+
+
+
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 75.
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[45
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+ <./pictures/mathematic_nombres_en_ecriture_fractionnaire.png>]
+Overfull \hbox (0.4pt too wide) in paragraph at lines 85--86
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[46
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+
+
+pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-darwin/pdflatex: pop empty c
+olor page stack 0
+]
+Overfull \hbox (0.4pt too wide) in paragraph at lines 316--317
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+
+Overfull \hbox (0.4pt too wide) in paragraph at lines 322--323
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[47]
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[48
+
+]
+File: pictures/pts_dans_le_plan.jpg Graphic file (type jpg)
+<use pictures/pts_dans_le_plan.jpg>
+Package pdftex.def Info: pictures/pts_dans_le_plan.jpg  used on input line 446.
+
+(pdftex.def)             Requested size: 128.0374pt x 137.0847pt.
+File: pictures/pts_dans_le_plan2.jpg Graphic file (type jpg)
+<use pictures/pts_dans_le_plan2.jpg>
+Package pdftex.def Info: pictures/pts_dans_le_plan2.jpg  used on input line 446
+.
+(pdftex.def)             Requested size: 170.71652pt x 98.20435pt.
+
+Overfull \hbox (2.85419pt too wide) detected at line 446
+\OML/lmm/m/it/12 A\OT1/lmr/m/n/12 (+5; +4);  \OML/lmm/m/it/12 B\OT1/lmr/m/n/12 
+(+5; +8); \OML/lmm/m/it/12 C\OT1/lmr/m/n/12 (\OMS/lmsy/m/n/12 ^^@\OT1/lmr/m/n/1
+2 3; +4); \OML/lmm/m/it/12 D\OT1/lmr/m/n/12 (\OMS/lmsy/m/n/12 ^^@\OT1/lmr/m/n/1
+2 3; +8)\OML/lmm/m/it/12 :
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[49]
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[50]
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+$\OT1/lmr/m/n/12 11 +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+\OT1/lmr/m/n/12 10  :
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[52]
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+[]$\OT1/lmr/m/n/12 123 456 :
+ []
+
+
+Overfull \hbox (5.62314pt too wide) in paragraph at lines 446--446
+[]$\OT1/lmr/m/n/12 80 000 000 000 000$ 
+ []
+
+
+Overfull \hbox (20.63696pt too wide) in paragraph at lines 446--446
+[]$\OT1/lmr/m/n/12 0\OML/lmm/m/it/12 ;\OT1/lmr/m/n/12 000 000 000 000 001$ 
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[54]
+Overfull \hbox (44.7311pt too wide) in paragraph at lines 446--446
+[]$[]$ 
+ []
+
+
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[55]
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[56]
+
+LaTeX Warning: File `pictures/nbr_rationnels_inverse.png' not found on input li
+ne 446.
+
+
+! Package pdftex.def Error: File `pictures/nbr_rationnels_inverse.png' not foun
+d: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.446  }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 446.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+[]$[] \OT1/lmr/m/n/12 :
+ []
+
+)
+Overfull \vbox (2.91692pt too high) has occurred while \output is active []
+
+
+[58]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  (./cours.6G.base.aux (./cours.6Gb.ch1.nombres.relatifs.aux)
-(./cours.6Gb.ch2.puissances.aux))
+(./cours.6Gb.ch2.puissances.aux) (./cours.6Gb.ch3.triangles.aux)
+(./cours.6Gb.ch4.nombres.rationnels.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `cours.6G.base.out' has not changed.
@@ -2527,16 +3126,16 @@ Package rerunfilecheck Info: File `cours.6G.base.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 50803 strings out of 492616
- 1115427 string characters out of 6129481
- 1573442 words of memory out of 5000000
- 53014 multiletter control sequences out of 15000+600000
- 650741 words of font info for 132 fonts, out of 8000000 for 9000
+ 52851 strings out of 492616
+ 1141681 string characters out of 6129481
+ 1630631 words of memory out of 5000000
+ 53621 multiletter control sequences out of 15000+600000
+ 657045 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,13n,100p,9092b,1259s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
-cal/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
-e/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/texmf-d
+ 85i,13n,100p,9092b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
+19/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-d
 ist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/
 dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/l
 m-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/latxf
@@ -2562,12 +3161,14 @@ exmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2019/texmf-dis
 t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
 pe1/public/lm/lmsy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/
 lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy9.pf
-b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
-0.pfb>
-Output written on cours.6G.base.pdf (29 pages, 576436 bytes).
+b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+
+Output written on cours.6G.base.pdf (58 pages, 1132138 bytes).
 PDF statistics:
- 1505 PDF objects out of 1728 (max. 8388607)
- 1295 compressed objects within 13 object streams
- 797 named destinations out of 1000 (max. 500000)
- 957 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3938 PDF objects out of 4296 (max. 8388607)
+ 3391 compressed objects within 34 object streams
+ 2215 named destinations out of 2487 (max. 500000)
+ 2769 words of extra memory for PDF output out of 10000 (max. 10000000)
 
